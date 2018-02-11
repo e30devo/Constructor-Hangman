@@ -1,0 +1,21 @@
+{
+  "name": "constructor-hangman",
+  "version": "1.0.0",
+  "description": "This requires 'inquirer' for prompts.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e30devo/Constructor-Hangman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e30devo/Constructor-Hangman/issues"
+  },
+  "homepage": "https://github.com/e30devo/Constructor-Hangman#readme"
+}
