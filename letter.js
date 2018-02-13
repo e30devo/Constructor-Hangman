@@ -2,24 +2,21 @@ function Letter(letter) {
     this.letter = letter,
     this.content = "_",
     this.letterGuessed = false,
-    this.letterCheck = function(guessInput) {
-        console.log("1!", this.letter);
-        if (this.letter === guessInput.letter) {
-            return this.letterGuessed = true;
+    this.letterCheck = function(guessInput) {    
+        if (this.letter === guessInput) {
+            console.log("");
+            console.log("Great Guess!");            
+            this.letterGuessed = true;
         }
     },
-    this.returnLetter = function() {
-        console.log("2", this.letterGuessed);
-        if (this.letterGuessed === true) {
-             return this.content = letter;
+    this.returnLetter = function() {        
+        if (this.letterGuessed === true) {            
+             this.content = letter;             
         }
-    },
-    this.print = function() {
-        console.log(this);
     }
 }
 
-var guessInput = process.argv[2];
+// var guessInput = process.argv[2];
 
 // guessInput.letterCheck(guessInput)
 // guessInput.returnLetter();
