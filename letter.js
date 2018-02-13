@@ -16,11 +16,4 @@ function Letter(letter) {
     }
 }
 
-// var guessInput = process.argv[2];
-
-// guessInput.letterCheck(guessInput)
-// guessInput.returnLetter();
-// console.log("3", {Content: guessInput.content});
-// console.log("4", guessInput.letterGuessed);
-
 module.exports = Letter;
